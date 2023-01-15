@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap');
+
+
+:root{
+    --green:#27ae60;
+    --black:#2c2c54;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    
+
+}
+*::selection{
+    background:var(--green);
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 2rem 9%;
+}
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background:rgba(12, 104, 0, 0.822);
+
+}
+.header-1{
+    background: rgba(0, 0, 0, 0.834);
+    display: flex;
+   
+    
+  
+}
+
+
+
+.header-2{
+    
+    background: rgba(207, 207, 207, 0.308);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, 1);
+    position: relative;
+    background-size: 8px ;
+}
+
+
+
+
+#h-1
+{
+    padding: 00.1rem 30%;
+    font-size: 15px;
+    color: green;
+}
+.containerr12
+{
+    
+    height: 100%;
+    background-image: url(../images/home-images/background/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+    
+}
+.bod4
+{
+    height: 100%;
+    background-image: url(../images/crop-nutrition/background/cropbackjpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+}
+.agri-mechanization
+{
+    background-image: url(../images/agri-mechanization/background/ii.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.seeds-body
+{
+    background-image: url(../images/seeds-and-planting/background/seedsbak.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.irrigation-body
+{
+    background-image: url(../images/irrigation/background/irrigation1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.bod7
+{
+    background-image: url(../images/agri-mechanization/background/ii.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.bod8
+{
+    background-image: url(../images/spicesbac.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.contact-b
+{
+    background-image: url(../images/contact/contact1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.about-body{
+    background-image: url(../images/about-us/3124512.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.spices-body{
+    background-image: url(../images/SPICES/background/spicesbac.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+.head
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.header-2 ul
+{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.header-2 ul li
+{
+ 
+    margin: 10px;
+    padding: 18px;
+   
+    
+
+}
+.header-2 ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.header-2 ul li:hover
+{
+    background: rgba(0, 88, 0, 0.438);
+    border-radius: 3px;
+    transition: .5s;
+}
+.sub-menu
+{
+    display: none;
+}
+.header-2 ul li:hover .sub-menu
+{
+    display: block;
+    position:static;
+    background: #ffffffcb;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.header-2 ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+
+}
+.header-2 ul li:hover .sub-menu ul li
+{
+    width: 190px;
+    padding: 10px;
+  
+    background: transparent;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-2 ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+.header-2 ul li:hover .sub-menu ul li a:hover
+{
+    color:rgb(0, 139, 19);
+    padding-left: 10px;
+}
+/*slider css*/
+
+
+.container12
+{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery
+{
+    margin: 25px;
+    border:1px solid rgb(255, 0, 0);
+    float: left;
+    width: 300px;
+}
+.container12 img
+{
+    display: block;
+}
+.gallery img{
+    width:300px;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+
+.forms
+{
+    width: 1100px;
+    height: 1300px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.534);
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.forms1
+{
+    width: 1100px;
+    height: 3650px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.534);
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.forms6
+{
+    width: 1100px;
+    height: 1620px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.534);
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.forms-irri
+{
+    width: 1100px;
+    height: 850px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.534);
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.container12 .gallery img
+{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+
+}
+.container12 .gallery:hover img
+{
+    transform: scale(1.08);
+}
+.home-img
+{
+    background-image: url(../images/home-images/background/backjpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1600px;
+    height: 500px;
+}
+.spices-div
+{
+    background-image: url(../images/SPICES/background/spices6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1600px;
+    height: 500px;
+}
+.seeds-div{
+    background-image: url(../images/seeds-and-planting/background/istockphoto-527229644-612x612.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1600px;
+    height: 500px;
+}
+.agri-div{
+    background-image: url(../images/agri-mechanization/background/meback1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1600px;
+    height: 500px;
+}
+.contact-img
+{
+    background-image: url(../images/contact/con1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1600px;
+    height: 500px;
+}
+.SPICES-img
+{
+    background-image: url(../images/spices6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1600px;
+    height: 500px;
+}
+.AGRI-MECHA
+{
+    background-image: url(../images/meback1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1600px;
+    height: 500px;
+}
+.crop-nutrition
+{
+    background-image: url(../images/crop-nutrition/background/crop-nutrition1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1600px;
+    height: 500px;
+}
+#seeds
+{
+    background-image: url(../images/seeds.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1600px;
+    height: 500px
+}
+
+
+.about-body{
+    height: 1000px;
+}
+
+#seeds-p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#home-h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(145, 0, 0);
+}
+#crop-n
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.footer1{
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 90px 0;
+}
+.container-1{
+    max-width: 1250px;
+    background-color: rgba(0, 0, 0, 0.973);
+    margin:auto;
+}
+ul{
+    list-style: none;
+
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-col1{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footer-col1 h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+.footer-col1 ul li a{
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    text-transform: none;
+}
+.footer-col1 ul li a:hover{
+    color: rgb(0, 255, 13);
+    padding-left: 10px;
+}
+#fot
+{
+    color: rgb(0, 82, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media(max-width:767px){
+    .footer-col1{
+        width: 50%;
+        padding: 0 15x;
+        margin-bottom: 30px;
+
+    }
+     
+
+
+}
+@media(max-width:574px){
+    .footer-col1{
+        width: 100%;
+        padding: 0 15x;
+     
+
+    }
+    
+}
+
+#fot-contact
+{
+    color: rgb(0, 82, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+#submitbtn{
+    display:inline-block;
+    margin-top:1rem;
+    background: rgba(0, 0, 0, 0.473);
+    color: rgb(255, 255, 255);
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+#submitbtn:hover{
+    background:rgb(71, 73, 75);
+
+}
+.contact{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.534);
+    font-family: sans-serif;
+    color: white;
+}
+#contact-h
+{
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.toggle-button
+{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius:10px;
+
+}@media (max-width:800px)
+{
+    .toggle-button{
+        display: flex;
+
+    }
+    .navbar-links
+    {
+       display: none;
+       width: 100%;
+    }
+    .header-2
+    {
+        flex-direction: column;
+        align-items:flex-start;
+        
+
+    }
+    .navbar-links ul
+    {
+        flex-direction: column;
+        width: 100% ;
+    }
+    .navbar-links li
+    {
+        text-align: center;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    .head
+    {
+        font-size: 20px;
+    }
+    #slider figure img
+    {
+        width: 5%;
+    }
+}
+.p1-home{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+ 
+}
+.p1-crop{
+    font-size: 30px;
+    color: rgb(219, 198, 6);
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+ 
+}
+.p1-agri{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow:
+    -1px -1px 0 rgb(0, 151, 0),
+    1px -1px 0 rgb(0, 151, 0),
+    -1px 1px 0 rgb(0, 151, 0),
+    1px 1px 0 rgb(0, 151, 0);
+ 
+}
+
+.container h1{
+    
+    color: rgb(1, 114, 10);
+    text-shadow:
+    -1px -1px 0 rgb(206, 202, 1),
+    1px -1px 0 rgb(206, 202, 1),
+    -1px 1px 0 rgb(206, 202, 1),
+    1px 1px 0 rgb(206, 202, 1);
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 15px;
+       
+}
+.about-us-h{
+    
+    color: rgb(1, 114, 10);
+    text-shadow:
+    -1px -1px 0 rgb(206, 202, 1),
+    1px -1px 0 rgb(206, 202, 1),
+    -1px 1px 0 rgb(206, 202, 1),
+    1px 1px 0 rgb(206, 202, 1);
+    font-size:50px;
+    padding: 00.1rem 30%;
+    text-align: center;
+
+}
+.about-us-vm{
+    color: rgb(173, 212, 0);
+    text-shadow:
+    -1px -1px 0 rgb(0, 116, 10),
+    1px -1px 0 rgb(0, 116, 10),
+    -1px 1px 0 rgb(0, 116, 10),
+    1px 1px 0 rgb(0, 116, 10);
+    font-size:30px;
+    padding: 00.1rem 30%;
+    text-align: center;
+}
+.headding{
+    color: rgb(1, 114, 10);
+    text-shadow:
+    -1px -1px 0 rgb(206, 202, 1),
+    1px -1px 0 rgb(206, 202, 1),
+    -1px 1px 0 rgb(206, 202, 1),
+    1px 1px 0 rgb(206, 202, 1);
+    font-size:20px;
+    padding: 00.1rem 30%;
+    text-align: center;
+    
+
+}
+.para{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.p1-seeds{
+    color: rgb(1, 114, 10);
+    text-shadow:
+    -1px -1px 0 rgb(206, 202, 1),
+    1px -1px 0 rgb(206, 202, 1),
+    -1px 1px 0 rgb(206, 202, 1),
+    1px 1px 0 rgb(206, 202, 1);
+    font-size:25px;
+    padding: 00.1rem 30%;
+    text-align: center;
+    
+}
+#logo-nihon{
+    padding-left: 275px;
+
+}
+/*contact css*/
+
+form{
+    background: rgba(27,31,34,0.80);
+    width: 640px;
+    margin: 50px auto;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px 30px;
+  }
+  
+  form .title h2{
+    letter-spacing: 6px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    color: wheat;
+  }
+  
+  form .half{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form .half .item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 48%;
+  }
+  
+  form label{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+    color: white;
+  }
+  
+  form .half .item input{
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+    color: white;
+  }
+  
+  form .full{
+    margin-bottom: 24px;
+  }
+  
+  form .full textarea{
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 12px 16px;
+    width: 100%;
+    height: 200px;
+    font-size: 17px;
+    color:white;
+  }
+  
+  form .action{
+    margin-bottom: 32px;
+  }
+  
+  form .action input{
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 3px;
+    outline: 0;
+    padding: 0 20px 0 22px;
+    margin-right: 10px;
+  }
+  
+  form .action input[type="submit"]{
+    background: white;
+    color: rgb(3, 3, 3);
+  }
+  
+  form .icons a{
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+  }
+  
+  form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+    background: rgba(255,255,255,0.075);
+  }
+  
+  @media (max-width: 480px){
+    form .half{
+      flex-direction: column;
+    }
+    form .half .item{
+      width: 100%;
+    }
+    form .action{
+      display: flex;
+      flex-direction: column;
+    }
+    form .action input{
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+  @media (max-width:360px){
+    .home-img{
+        width: 100%;
+        height: 60px;
+    }
+
+
+
+
+  }

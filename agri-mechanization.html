@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/java.js" defer></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <title>agri mechanization</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alata|Josefin+Sans|Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/bootstrap.css">
+</head>
+<style >
+    .card{
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+    #card{
+        margin-bottom: 20px;
+    }
+
+    .card:hover{
+        box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    }
+    .container{
+        padding: 2px 16px;
+    }
+body{
+    font-family: Gotham;
+}
+#slider {
+        overflow:hidden;
+    }
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 25s slider infinite;
+    }
+    #slider figure img {
+        width: 20%;
+        height: 500px;
+        float: left;
+    }
+    
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50% {
+            left: -200%;
+        }
+        70% {
+            left: -200%;
+        }
+        75% {
+            left: -300%;
+        }
+        95% {
+            left: -300%;
+        }
+        100% {
+            left: -400%;
+        }
+    }
+    
+    
+    </style>
+
+
+</style>
+<script >
+    $(document).ready(function(){
+        $("#myinput").on("keyup",function(){
+        var value = $(this).val().toLowerCase();
+        $("#card div").filter(function(){
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+
+        });
+    });
+        });
+
+
+</script>
+<body>
+<div class="agri-mechanization">
+      <!--header section starts -->
+
+      <header>
+        <div class="header-1">
+            
+            <img src="images/nihon-logo/Nihon Logo-03.png" id="logo-nihon"  alt="NIHON AGRICULTURE" width="350" height="70"/>
+
+   
+            
+
+       
+      
+
+       
+       
+       
+
+     
+       
+
+     </div>
+        <div class="header-2">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+ 
+            </a>
+            <br>
+             <div class="navbar-links">
+            
+              <ul>
+                  <li><a href="index.html"><li class="fa fa-home fa-2x">HOME</a></li>
+                  <li><a href="contact.html"><li class="fa fa-users fa-2x">CONTACT</a></li>
+                  <li><a href="about.html"><li class="fa fa-phone-square fa-2x">ABOUT US</a></li>
+                  <li><a href="#"><li class="fa fa-chevron-circle-down fa-2x">OUR BUSINESS</a>
+                    <div class="sub-menu">
+                        <ul>
+                           <li ><a href="crop-nutrition.html">CROP NUTRITION</a></li>
+                           <li ><a href="crop-protection.html">CROP PROTECTION</a></li>
+                           <li ><a href="seeds-and-planting.html">SEEDS AND PLANTING MATERIALS</a></li>
+                           <li ><a href="protected-agriculture.html">PROTECTED AGRICULTURE</a></li>
+                           <li ><a href="irrigation.html">IRRIGATION</a></li>
+                           <li ><a href="agri-mechanization.html">AGRI MECHANIZATION</a></li>
+                           <li ><a href="spices.html">SPICES</a></li>
+                            
+                        </ul>
+                    </div>    
+                    </li>
+                    
+
+
+
+              </ul>  
+              
+            </div>
+ </div>
+
+
+
+    </header>
+    <br>
+    <center> <p class="p1-agri">WELCOME TO NIHON AGRICULTURE HOLDINGS</p></center>
+   
+    <br>
+    
+
+    <br>
+    
+     <!--page header start-->
+     <div class="slid">
+        <div id="slider">
+            <figure>
+                <img src="images/agri-mechanization/SLIDER/agri-machanization.png">
+                <img src="images/agri-mechanization/SLIDER/drone12.jpg">
+                <img src="images/agri-mechanization/SLIDER/meback2jpg.jpg">
+                <img src="images/agri-mechanization/SLIDER/SMB320-Agricultural-drone.jpg">
+                <img src="images/agri-mechanization/SLIDER/MECHANI.jpg">
+            
+                
+                
+                
+                
+            </figure>
+
+        </div>
+
+    </div>
+    <br>
+    	
+		<br>
+        <h1></h1>
+        <div id ="portfolio" class="text-center paddsection">
+            <div class="section-title text-center">
+                <h2 class="p1-agri">AGRI MECHANIZATION</h2><br>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input id="myinput" type="text"  placeholder="Search..." class="form-control"><br><br>
+    
+                        <div class="portfolio-container" id="card">
+    
+                            <div class="col-md-4 portfolio-thumbnail  " >
+                                <div class="card" id="card">
+                                    <img src="images/agri-mechanization/SPRAYER/16 L battery sprayer.jpg" style="width: 100%"  height="300px" >
+                                    <h4><b>NIHON 16 L battery sprayer</b></h4>
+                                    <p>Knapsack & Sprayers</p>
+                                </div>
+                            </div>
+                            
+                            
+                            
+    
+          <div class="col-md-4 portfolio-thumbnail all ">
+                    <div class="card" id="card">
+                      <img src="images/agri-mechanization/SPRAYER/16 L kNAPSACK SPRAYER.jpg" alt="Avatar" style="width: 100%" height="300px">
+                        <h4><b>NIHON 16 L kNAPSACK SPRAYER</b></h4> 
+                        <p>Knapsack & Sprayers</p> 
+                    </div>
+                </div>
+                
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/SPRAYER/16L metal sprayer.jpg" alt="Avatar"style="width: 100%" height="300px" >
+                        <h4><b>NIHON 16L metal sprayer</b></h4> 
+                        <p>Knapsack & Sprayers</p> 
+                    </div>
+                </div>
+                
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/NIHO SMALL SPRAYERS/NIHO SMALL SPRAYERS.jpg" alt="Avatar" style="width: 100%" height="300px">
+                        <h4><b>NIHO SMALL SPRAYERS</b></h4> 
+                        <p>NIHO SMALL SPRAYERS</p> 
+                    </div>
+                </div>
+                
+    
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/POWER SPRAYER1/POWER SPRAYER1.jpg" alt="Avatar" style="width: 100%" height="300px">
+                            <h4><b>NIHON POWER SPRAYER1</b></h4> 
+                        <p>POWER SPRAYER1</p> 
+                    </div>
+                </div>
+    
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/AGRI DRONE/AGRI DRONE.jpg" alt="Avatar" style="width: 100%"height="300px">
+                        <h4><b>NIHON AGRI DRONE</b></h4> 
+                        <p>NIHON AGRI DRONE</p> 
+                    </div>
+                </div>
+    
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/COMBINE HARVESTOR/COMBINE HARVESTOR 2.jpg" alt="Avatar" style="width: 100%" height="300px">
+                        <h4><b>NIHON COMBINE HARVESTOR 2</b></h4> 
+                        <p>NIHON COMBINE HARVESTOR</p>				
+                    </div>
+                </div>
+    
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/COMBINE HARVESTOR/NIHON PADDY COMBINE HARVESTORS.jpg" alt="Avatar" style="width: 100%" height="300px">
+                        <h4><b>NIHON PADDY COMBINE HARVESTORS</b></h4> 
+                        <p>NIHON PADDY COMBINE HARVESTORS</p> 
+                    </div>
+                </div>
+                
+    
+    
+    
+                <div class="col-md-4 portfolio-thumbnail ">
+                      <div class="card" id="card">
+                      <img src="images/agri-mechanization/DISK PLOUGH/DISK PLOUGH.png" alt="Avatar" style="width: 100%" height="320px">
+                        <h4><b>NIHON DISK PLOUGH</b></h4> 
+                        <p>NIHON DISK PLOUGH</p> 
+                    </div>
+                </div>
+                
+                <div class="col-md-4 portfolio-thumbnail ">
+                    <div class="card" id="card">
+                    <img src="images/agri-mechanization/DISK PLOUGH/DISK PLOUGHS.jpg" alt="Avatar" style="width: 100%" height="300px">
+                      <h4><b>NIHON DISK PLOUGH</b></h4> 
+                      <p>NIHON DISK PLOUGH</p> 
+                  </div>
+              </div>
+              <div class="col-md-4 portfolio-thumbnail ">
+                <div class="card" id="card">
+                <img src="images/agri-mechanization/fogging/FOGGING MACHINE.webp" alt="Avatar" style="width: 100%" height="300px">
+                  <h4><b>NIHON FOGGING MACHINE</b></h4> 
+                  <p>NIHON FOGGING MACHINE</p> 
+              </div>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail ">
+            <div class="card" id="card">
+            <img src="images/agri-mechanization/GARDNING TOOLS/GARDNING TOOLS 3.jpg" alt="Avatar" style="width: 100%" height="300px">
+              <h4><b>NIHON GARDNING TOOLS 3.</b></h4> 
+              <p>NIHON GARDNING TOOLS</p> 
+          </div>
+      </div>
+      <div class="col-md-4 portfolio-thumbnail ">
+        <div class="card" id="card">
+        <img src="images/agri-mechanization/GARDNING TOOLS/GARDNING TOOLS.jpg "alt="Avatar" style="width: 100%" height="300px">
+          <h4><b>NIHON GARDNING TOOLS</b></h4> 
+          <p>NIHON GARDNING TOOLS</p> 
+      </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/GARDNING TOOLS/NIHON GARDNING TOOL KIT.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON GARDNING TOOL KIT</b></h4> 
+      <p>NIHON GARDNING TOOLS</p> 
+  </div>
+</div>
+</div>
+<div class="col-md-4 portfolio-thumbnail ">
+  <div class="card" id="card">
+  <img src="images/agri-mechanization/NIHON FOUR WHEEL TRACTOR/NIHON FOUR WHEEL TRACTOR.jpg" alt="Avatar" style="width: 100%" height="300px">
+    <h4><b>NIHON FOUR WHEEL TRACTOR.</b></h4> 
+    <p>NIHON FOUR WHEEL TRACTOR.</p> 
+</div>
+</div>
+<div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON GRASS CUTTERS/GRASS CUTTER 2.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON GRASS CUTTER 2</b></h4> 
+      <p>NIHON GRASS CUTTER</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON GRASS CUTTERS/NIHON GRASS CUTTERS.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON GRASS CUTTERS</b></h4> 
+      <p>NIHON GRASS CUTTERS</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON MAHASEN MAMOTY/NIHON MAHASEN MAMOTY.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON MAHASEN MAMOTY</b></h4> 
+      <p>NIHON MAHASEN MAMOTY</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON RIDGE MAKER/NIHON RIDGE MAKER.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON RIDGE MAKER</b></h4> 
+      <p>NIHON RIDGE MAKER</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON ROTERMASTER/NIHON ROTERMASTER.jpeg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON ROTERMASTER</b></h4> 
+      <p>NIHON ROTERMASTER</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON TILLER/NIHON ROTARY TILLER.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON ROTARY TILLER</b></h4> 
+      <p>NIHON ROTARY TILLER</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON TILLER/NIHON TINE TILLER.png" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON TINE TILLER</b></h4> 
+      <p>NIHON TINE TILLER</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/NIHON TWO WHEEL TRACTORS/NIHON TWO WHEEL TRACTORS.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON TWO WHEEL TRACTORS</b></h4> 
+      <p>NIHON TWO WHEEL TRACTORS</p> 
+  </div>
+  </div>
+  <div class="col-md-4 portfolio-thumbnail ">
+    <div class="card" id="card">
+    <img src="images/agri-mechanization/PADDY TRANSPLANTER/PADDY TRANSPLANTER.jpg" alt="Avatar" style="width: 100%" height="300px">
+      <h4><b>NIHON PADDY TRANSPLANTER</b></h4> 
+      <p>NIHON PADDY TRANSPLANTER</p> 
+  </div>
+ 
+
+
+
+
+
+
+
+
+    
+    
+    
+            
+    
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    
+      <br>
+       <div class="agri-div"> </div>
+            <!--footer section-->
+            <footer class="footer1">
+                <CENter>
+                    <img src="images/nihon-logo/Nihon Logo-02.png" alt="" width="300" height="200">
+                </CENter>
+                    <br>
+                 
+                <div class="container-1">
+                    <div class="row1">
+                        <div class="footer-col1">
+                            <h4>COMPANY</h4>
+                            <ul>
+                
+                                <li><a href="about.html">ABOUT US</a></li>
+                                <li><a href="contact.html">CONTACT US</a></li>
+                                <li><a href="#">OUR BUSINESS</a></li>
+                            </ul>
+                
+                        </div>
+                        <div class="footer-col1">
+                            <h4>ABOUT NIHON AGRICULTURE</h4>
+                            <ul>
+                
+                                <li><a href="#">NO.44 WEUSIRIUYANA<br>
+                                     KALAPITIMULLA HUNUMULLA.</a></li><br>
+    
+                                <li><a href="#">PHONE:+94-777666802</a></li><br>
+    
+                                <li><a href="#">EMAIL:info@nihonagholdings.com</a></li>
+                      
+                                
+                            </ul>
+                
+                        </div>
+                        <div class="footer-col1">
+                            <h4>OUR BUSINESS</h4>
+                            <ul>
+                
+                                <li><a href="crop-nutrition.html">CROP NUTRITION</a></li>
+                                <li><a href="crop-protection.html">CROP PROTECTION</a></li>
+                                <li><a href="seeds-and-planting.html">SEEDS AND PLANTING MATERIALS</a></li>
+                                <li><a href="protected-agriculture.html">PROTECTED AGRICULTURE</a></li>
+                                <li><a href="irrigation.html">IRRIGATION</a></li>
+                                <li><a href="agri-mechanization.html">AGRI MECHANIZATION</a></li>
+                                <li><a href="spices.html">SPICES</a></li>
+                            </ul>
+                
+                        </div>
+                        <div class="footer-col1">
+                            <h4>follow us</h4>
+                            <ul>
+                
+                                <li><a href="#"><img src="images/social media/face.png" alt="" width="30" height="30"></a></li><br>
+                                <li><a href="#"><img src="images/social media/twi.png" alt="" width="30" height="30"></a></li><br>
+                                <li><a href="#"><img src="images/social media/waht.png" alt="" width="30" height="30"></a></li><br>
+                                
+                                
+                            </ul>
+                
+                        </div>
+                        
+                
+                
+                    </div>
+                
+                
+                
+                </div>
+                
+                    
+                </footer>
+                
+                
+                
+                
+                
+                
+                
+                <!--footer section end-->
+        
+
+
+</div>
+
+  
+
+</body>
+
+</html>
